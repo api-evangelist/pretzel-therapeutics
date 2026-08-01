@@ -1,8 +1,24 @@
 aid: pretzel-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pretzel-therapeutics.png
 name: Pretzel Therapeutics
-description: 'Pretzel Therapeutics is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Pretzel Therapeutics is a biopharmaceutical company developing first-in-class
+  medicines that target mitochondrial biology and cellular energy regulation. Its pipeline
+  spans neurological, muscular atrophy, metabolic, and rare disease indications, applying
+  novel mitochondrial modulation approaches to conditions driven by dysfunctional cellular
+  energy production. Backed by GV, the company operates as a therapeutics developer and
+  publishes no public API or developer platform; this profile is maintained in the API
+  Evangelist network as a portfolio company record and life-sciences lead.'
 url: https://raw.githubusercontent.com/api-evangelist/pretzel-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Therapeutics
+- Mitochondrial Medicine
+- Drug Discovery
+- Rare Disease
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pretzel-therapeutics-domain-security.yml
 - type: Website
-  url: pretzeltx.com
+  url: https://www.pretzeltx.com/
+- type: About
+  url: https://www.pretzeltx.com/about-us/
+- type: Blog
+  url: https://www.pretzeltx.com/news/
+- type: Support
+  url: https://www.pretzeltx.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.pretzeltx.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.pretzeltx.com/terms-of-service/
+- type: LinkedIn
+  url: https://linkedin.com/company/pretzeltx/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
