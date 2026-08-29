@@ -31,6 +31,9 @@ description: 'Pretzel Therapeutics is a biopharmaceutical company developing fir
   publishes no public API or developer platform; this profile is maintained in the API
   Evangelist network as a portfolio company record and life-sciences lead.'
 url: https://raw.githubusercontent.com/api-evangelist/pretzel-therapeutics/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Backed by GV, the company operates as a therapeutics developer and publishes no public API or developer platform; this profile is maintained in the API Evangelist network as a portfolio company record"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
